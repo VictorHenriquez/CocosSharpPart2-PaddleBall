@@ -199,9 +199,11 @@ Update the Android project to only run in Portrait mode.  In the Solution Explor
 ...</pre>
 Update the iOS project to only run in Portrait mode.  In the Solution Explorer, open the  PaddleBall.iOS -&gt; Properties file. Under iOS Application, deselect Landscape Left and Landscape Right from the Supported Device Orientations.
 <strong>Fig 6.1 - Old iOS Device Orientation Configuration</strong>
+
 <a href="https://jbeck.me/wp-content/uploads/2015/08/Fig6.3.1_iOSLandscapeSelection.png" target="_blank"><img class="alignnone wp-image-264 size-full" src="https://jbeck.me/wp-content/uploads/2015/08/Fig6.3.1_iOSLandscapeSelection.png" alt="Fig6.3.1_iOSLandscapeSelection" width="564" height="215" /></a>
 
 <strong>Fig 6.2 - New iOS Device Orientation Configuration</strong>
+
 <a href="https://jbeck.me/wp-content/uploads/2015/08/Fig6.3.2_iOSLandscapeSelection.png" target="_blank"><img class="alignnone wp-image-265 size-full" src="https://jbeck.me/wp-content/uploads/2015/08/Fig6.3.2_iOSLandscapeSelection.png" alt="Fig6.3.2_iOSLandscapeSelection" width="562" height="205" /></a>
 
 Update the Windows Phone project to only run in Portrait mode.  In the Solution Explorer, open the PaddleBall.WinPhone -&gt; Package.appxmanifest file.  In the Application tab, under Supported rotations, check the checkbox for Portrait.
@@ -444,6 +446,7 @@ protected override void AddedToScene()
 }
 ...</pre>
 <strong>Fig 11.1 - Final Game Running</strong>
+
 <a href="https://jbeck.me/wp-content/uploads/2015/08/Fig9_RunningGame.png" target="_blank"><img class="alignnone wp-image-253 size-large" src="https://jbeck.me/wp-content/uploads/2015/08/Fig9_RunningGame-576x1024.png" alt="Fig9_RunningGame" width="576" height="1024" /></a>
 
 <strong>Further Reading</strong>
